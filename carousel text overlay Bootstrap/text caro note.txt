@@ -1,0 +1,12 @@
+bootstrap caption caro > remove classes d-none d-md-block > add d-block , custom class (caro-text) give css bottom in % > add  <div class="overlay"></div> before img tag > give overlay css > .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #080d15;
+  opacity: .4;
+}
+
+.caro-text {
+  z-index: 1;
+  bottom: 28%;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #080d15;
+  opacity: .4;
+}
+
+.caro-text {
+  z-index: 1;
+  bottom: 28%;
+}
+
+.caro-text h1 {
+  font-size: 75px;
+  font-family: 'Trade Winds', cursive;
+  letter-spacing: 10px;
+}
+
+.caro-text p {
+  padding-bottom: 20px;
+  font-size: 22px;
+  color: rgb(218, 216, 216);
+}
+
+
+.caro-text button {
+  background-color: #208c1c;
+  color: white;
+  font-weight: 600;
+  padding: 10px 40px;
+  font-size: 18px;
+}
+
+.caro-text button:hover {
+  background-color: rgb(219, 44, 44);
+  color: white;
+}
+
+.carousel img {
+  height: 700px;
+}
+
+/* For max-width: 1024px */
+@media only screen and (max-width: 1024px) {
+  .carousel img {
+    height: 100%;
+  }
+
+  .caro-text h1 {
+    font-size: 70px;
+  }
+
+}
+
+/* For max-width: 768px */
+@media only screen and (max-width: 768px) {
+  .caro-text {
+    bottom: 25%;
+  }
+
+  .caro-text h1 {
+    font-size: 52px;
+    letter-spacing: 5px;
+  }
+
+  .caro-text p {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+
+
+/* For max-width: 480px */
+@media only screen and (max-width: 580px) {
+  .caro-text {
+    bottom: 8%;
+  }
+
+  .caro-text h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .caro-text p {
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+
+  .caro-text button {
+    padding: 2px 20px;
+    font-size: 10px;
+  }
+}
+
+/* For max-width: 320px */
+@media only screen and (max-width: 330px) {
+  .caro-text {
+    bottom: 3%;
+  }
+
+  .caro-text h1 {
+    font-size: 25px;
+  }
+
+  .caro-text p {
+    font-size: 12px;
+  }
+
+  .caro-text button {
+    font-size: 10px;
+  }
+}
